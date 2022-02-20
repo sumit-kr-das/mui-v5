@@ -1,6 +1,8 @@
 import React from 'react'
 import { Box } from '@mui/system'
 import { Container, Grid, Typography, Button } from '@mui/material'
+import DesktopCategories from './DesktopCategories';
+
 
 const img1 = "http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-9.png";
 
@@ -41,7 +43,7 @@ const ProductContainer = () => {
           </Grid>
         </Grid>
       {/* Product List */}
-      <h1>Hi</h1>
+      <DesktopCategories />
     </Container>
   )
 }
