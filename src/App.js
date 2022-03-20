@@ -6,10 +6,12 @@ import ProductContainer from "./components/Products/ProductContainer";
 import LearnDataGrid from "./PlayGround/LearnDataGrid";
 import MobileCategory from "./components/Products/MobileCategory";
 import { Box } from "@mui/system";
+import CustomButton from "./customize mui/components/CustomButton";
+import StyledPaper from './mui-styled/components/StyledPaper';
 
 const App = () => {
   return (
-    <div>
+    <Box sx={{ mb: 8}}>
       <Nav />
       <Header />
       {/* <GridSystem /> */}
@@ -20,7 +22,9 @@ const App = () => {
       <Box sx={{display: {xs: "block", lg: "none"}, margin: "2rem"}} >
         <MobileCategory />
       </Box>
-    </div>
+      <CustomButton />
+      <StyledPaper />
+    </Box>
   );
 };
 
